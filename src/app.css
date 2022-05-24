@@ -1,0 +1,54 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+	vertical-align: baseline;
+
+	margin: 0;
+	padding: 0;
+	/* border: 0; */
+	font: inherit;
+}
+
+:root, body {
+	font-size: 100%;
+
+	--font-sans: Verdanda, Helvetica, Arial, sans-serif;
+	--font-seirf: Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
+
+	--theme-primary: hsl(140, 70%, 50%);
+}
+
+h1 {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+p {
+	margin-top: 0.4em;
+	margin-bottom: 0.8em;
+}
+
+ol, ul {
+	padding-left: 1em;
+}
+
+a {
+	color: blue;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+small {
+	font-size: 0.5em;
+}

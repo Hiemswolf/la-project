@@ -1,2 +1,17 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script context="module" lang="ts">
+	export const prerender = true;
+</script>
+
+<script lang="ts">
+</script>
+
+<svelte:head>
+	<title>Sports Concussions</title>
+</svelte:head>
+
+<h1>Index</h1>
+<nav>
+	<ul>
+		<li><a href="/pages/1/">Page 1</a></li>
+	</ul>
+</nav>
